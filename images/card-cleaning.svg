@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" role="img" aria-label="Chimney cleaning">
+  <rect width="360" height="200" fill="#e6f4f1"/>
+  <rect x="150" y="10" width="60" height="50" fill="#ffffff" stroke="#0d2b3e" stroke-width="3"/>
+  <path d="M90 60 L270 60 L244 110 L116 110 Z" fill="#0d2b3e"/>
+  <rect x="112" y="104" width="136" height="8" rx="3" fill="#f08a24"/>
+  <rect x="100" y="150" width="160" height="40" rx="6" fill="#ffffff" stroke="#0d2b3e" stroke-width="3"/>
+  <g fill="none" stroke="#0d2b3e" stroke-width="3"><circle cx="130" cy="170" r="10"/><circle cx="170" cy="170" r="10"/><circle cx="210" cy="170" r="10"/></g>
+  <!-- brush -->
+  <g transform="translate(270 110) rotate(18)">
+    <rect x="-6" y="0" width="12" height="56" rx="6" fill="#0e7c6b"/>
+    <rect x="-22" y="52" width="44" height="14" rx="5" fill="#f08a24"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#0e7c6b">
+    <path d="M300 30 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5z"/>
+    <path d="M40 90 l4 8 8 4 -8 4 -4 8 -4 -8 -8 -4 8 -4z"/>
+    <path d="M330 140 l3 6 6 3 -6 3 -3 6 -3 -6 -6 -3 6 -3z"/>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Kitchen chimney hood above a gas stove">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6f4f1"/>
+      <stop offset="1" stop-color="#cfe8e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="24" fill="url(#wall)"/>
+  <!-- tiled backsplash -->
+  <g fill="#ffffff" opacity="0.55">
+    <rect x="30" y="40" width="70" height="40" rx="6"/><rect x="104" y="40" width="70" height="40" rx="6"/>
+    <rect x="470" y="40" width="100" height="40" rx="6"/><rect x="30" y="86" width="70" height="40" rx="6"/>
+    <rect x="104" y="86" width="70" height="40" rx="6"/><rect x="470" y="86" width="100" height="40" rx="6"/>
+  </g>
+  <!-- duct -->
+  <rect x="252" y="22" width="96" height="150" fill="#ffffff" stroke="#0d2b3e" stroke-width="3"/>
+  <rect x="236" y="14" width="128" height="14" rx="4" fill="#0d2b3e"/>
+  <!-- hood -->
+  <path d="M140 168 L460 168 L406 262 L194 262 Z" fill="#0d2b3e"/>
+  <rect x="190" y="254" width="220" height="12" rx="4" fill="#f08a24"/>
+  <!-- filter lines -->
+  <g stroke="#3d6676" stroke-width="3">
+    <line x1="220" y1="200" x2="380" y2="200"/>
+    <line x1="210" y1="220" x2="390" y2="220"/>
+    <line x1="200" y1="240" x2="400" y2="240"/>
+  </g>
+  <!-- stove -->
+  <rect x="160" y="300" width="280" height="90" rx="10" fill="#ffffff" stroke="#0d2b3e" stroke-width="3"/>
+  <g fill="none" stroke="#0d2b3e" stroke-width="4">
+    <circle cx="215" cy="345" r="20"/><circle cx="300" cy="345" r="20"/><circle cx="385" cy="345" r="20"/>
+  </g>
+  <g fill="#f08a24">
+    <circle cx="215" cy="345" r="6"/><circle cx="300" cy="345" r="6"/><circle cx="385" cy="345" r="6"/>
+  </g>
+  <!-- steam -->
+  <g fill="none" stroke="#5d6b78" stroke-width="4" stroke-linecap="round" opacity="0.5">
+    <path d="M260 250 q-16 -22 0 -44 t0 -44"/>
+    <path d="M320 250 q16 -22 0 -44 t0 -44"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#0e7c6b">
+    <path d="M510 230 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z"/>
+    <path d="M90 190 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4z"/>
+    <path d="M530 130 l3 6 6 3 -6 3 -3 6 -3 -6 -6 -3 6 -3z"/>
+  </g>
+  <!-- badge -->
+  <g>
+    <rect x="28" y="330" width="150" height="46" rx="23" fill="#ffffff"/>
+    <circle cx="52" cy="353" r="10" fill="#0e7c6b"/>
+    <path d="M47 353 l4 4 8 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="358" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#0d2b3e">Clean &amp; safe</text>
+  </g>
+</svg>
